@@ -38,6 +38,8 @@ Plug 'tomtom/tcomment_vim'
 " Fuzzy search
 " ==================================================================
 " Plug 'kien/ctrlp.vim'
+" CtrlP needs ag to work:
+" pacman -S the_silver_searcher
 Plug 'ctrlpvim/ctrlp.vim'
 " set wildignore+=node_modules/*
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
